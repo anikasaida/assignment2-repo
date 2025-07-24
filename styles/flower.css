@@ -121,6 +121,8 @@
 .plant-lover-all{
   display: flex;
 }
+
+
 .joint{
   justify-items: center;
   gap: 5px;
