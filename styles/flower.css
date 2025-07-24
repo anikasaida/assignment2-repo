@@ -118,9 +118,7 @@
 .add-to-cart:hover {
   background-color: darkorange;
 }
-.plant-lover-all{
-  display: flex;
-}
+
 
 
 .joint{
@@ -298,9 +296,11 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: flex-start;
   }
 
   .social-logo {
+     justify-content: flex-start;
     margin-top: 30px;
     order: 4; 
   }
@@ -314,7 +314,8 @@
   }
 
   .footer-logo {
-    margin: 0 auto 15px;
+    margin-left: 0;
+    
   }
 }
 
