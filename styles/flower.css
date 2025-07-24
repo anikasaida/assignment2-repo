@@ -134,7 +134,7 @@
 }
 
 .join-section {
-  background-image: url('./images/news-letter-bg.png'); 
+background-image: url('../images/news-letter-bg.png');
   background-size: cover;
   background-position: center;
   height: 600px;
