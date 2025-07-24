@@ -102,7 +102,7 @@
   padding: 12px;
   font-size: 1rem;
   font-weight: bold;
-  cursor: pointer;
+  
   width: 100%;
   box-sizing: border-box;
   margin-top: auto;
@@ -121,16 +121,77 @@
 .plant-lover-all{
   display: flex;
 }
-.join{
+.joint{
   justify-items: center;
   gap: 5px;
   max-width: 700px;
   margin: 0 auto;
 }
-.join-section {
+.joint-section {
   padding: 60px 20px;
   background-color: #ffffff;
   text-align: center;
+}
+
+.join-section {
+  background-image: url('/images/news-letter-bg.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+  display: flex;              
+  justify-content: center;     
+  align-items: center;        
+  text-align: center;
+}
+
+
+.join-content {
+  
+  max-width: 600px;
+  margin: 0 auto;
+ 
+}
+
+.join-content h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.text-grp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  
+}
+
+
+.text-grp input[type="email"] {
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: none;
+  width: 400px;
+  outline: none;
+}
+
+.btn {
+  padding: 12px 24px;
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  
+  
+}
+
+.btn:hover {
+  background-color: darkorange;
 }
 
 
@@ -152,7 +213,17 @@
   .plant-all-card {
     grid-template-columns: repeat(2, 1fr); 
   }
+ .text-grp input[type="email"] {
+    width: 250px;      
+    font-size: 0.9rem; 
+    padding: 8px 12px; 
+  }
   
+  .btn {
+    padding: 8px 16px;  
+    font-size: 0.9rem;  
+    width: auto;        
+  }
 }
 
 
