@@ -76,6 +76,7 @@
   padding: 20px;
   box-sizing: border-box;
   width: 100%;
+   height: 100%;
 }
 .plant-card img {
   width: 100%;
@@ -96,7 +97,7 @@
 
 .add-to-cart {
   background-color: #E95A08;
-  color: white;
+  color: #FFFFFF;
   border: none;
   padding: 12px;
   font-size: 1rem;
@@ -117,6 +118,22 @@
 .add-to-cart:hover {
   background-color: darkorange;
 }
+.plant-lover-all{
+  display: flex;
+}
+.join{
+  justify-items: center;
+  gap: 5px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.join-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+
 
 /* Responsive: for small screens */
 @media screen and (max-width: 576px) {
@@ -132,6 +149,10 @@
   .text-pera {
     font-size: 1rem;
   }
+  .plant-all-card {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  
 }
 
 
