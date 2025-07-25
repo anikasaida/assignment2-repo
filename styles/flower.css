@@ -23,8 +23,6 @@
   flex: 1 1 400px;
 }
 
-
-
 .banner-text-header span {
   color: #ff69b4;
 }
@@ -118,8 +116,6 @@
 .add-to-cart:hover {
   background-color: darkorange;
 }
-
-
 
 .joint{
   justify-items: center;
@@ -268,7 +264,7 @@ background-image: url('../images/news-letter-bg.png');
 @media screen and (max-width: 576px) {
   .banner-content {
     flex-direction: column-reverse;
-    text-align: center;
+    
   }
 
   .banner-text-header {
