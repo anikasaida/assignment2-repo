@@ -282,7 +282,10 @@ background-image: url('../images/news-letter-bg.png');
     font-size: 0.9rem; 
     padding: 8px 12px; 
   }
-  
+  .add-to-cart {
+  white-space: nowrap;
+}
+
   .btn {
     padding: 8px 16px;  
     font-size: 0.9rem;  
